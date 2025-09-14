@@ -19,4 +19,4 @@ This project is based on an open-source HTML and CSS template, which I adapted t
 - Improving responsive design skills and user experience
 
 ## Vercel Link
-[construction-website-zeta-ten.vercel.app](https://construction-website-zeta-ten.vercel.app)
+[medicina-website.vercel.app](medicina-website.vercel.app)
