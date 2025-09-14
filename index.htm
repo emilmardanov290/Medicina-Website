@@ -1,0 +1,397 @@
+<!--Source paste to browser to open: 
+https://themezinho.net/medicina/index.html-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medicina</title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="style/reset.css">
+        <link rel="stylesheet" href="style/font/font.css">
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        <header>
+            <div id="top-header">
+                <div class="my_container">
+                    <a href="tel:+1800555-1234">
+                        <img src="materials/img/phone.svg" alt="phone" style="width:2em;">
+                        1-800-555-1234
+                    </a>
+                    <div id="search-bar">
+                        <a href="">
+                            <i class="fa-solid fa-magnifying-glass" style="color:#fff; font-size: 30px; padding-left: 0.5em;"></i>
+                        </a>
+                        <input type="text" placeholder="Type a word to find" style="padding-left: 1em;">
+                    </div>
+                    <a href="">
+                        <img src="materials/img/uk-icon.png" alt="english" style="width:1.8em;">
+                        English
+                    </a>
+                </div>
+            </div>
+            <!--NAVBAR-->
+            <nav class="navbar navbar-expand-xl navbar-gray bg-white">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="materials/img/logo.png" alt="logo" id="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="gap-2 me-3 d-flex" id="SN" style="order:1;">
+                            <a href=""><i class="fa-brands fa-facebook-f SN" style="color: #1dd2c8; font-size:1.5em;"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram SN" style="color: #1dd2c8; font-size:1.5em;"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin-in SN" style="color: #1dd2c8; font-size:1.5em;"></i></a>                 
+                        </div>
+                        <ul class="navbar-nav ms-auto d-flex gap-2">
+                            <li class="nav-item">
+                                <a class="nav-link active text-design-1" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-design-1" href="#">Medicina</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-design-1" href="#">Departments</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-design-1" href="#">Doctors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-design-1" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-design-1" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-design-1" style="min-width:150px;" href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!--SLIDER-->
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="materials/img/banner3.jpg.jpeg" class="d-block w-100 banner-img" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100" id="slider-text">
+                            <h2>We have more <span style="color: turquoise; border-bottom:3px solid #1dd2c8;">+100</span>surgens to take care of you</h2>
+                            <h2>surgens to take care of you</h2>
+                            <img src="materials/img/pulse.png" alt="pulse" loading="lazy">
+                            <a href="">READ MORE | +</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="materials/img/banner2.jpg.jpeg" class="d-block w-100 banner-img" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100" id="slider-text">
+                            <h2>Our<span style="color: turquoise; border-bottom:3px solid #1dd2c8;">MRI</span>room has</h2>
+                            <h2>been renew for our patients</h2>
+                            <img src="materials/img/pulse.png" alt="pulse" loading="lazy">
+                            <a href="">READ MORE | +</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="materials/img/banner4.jpg.jpeg" class="d-block w-100 banner-img" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100" id="slider-text">
+                            <h2>Online<span style="color: turquoise; border-bottom:3px solid #1dd2c8;">Appointment</span>so</h2>
+                            <h2>easy to get from our new website</h2>
+                            <img src="materials/img/pulse.png" alt="pulse" loading="lazy">
+                            <a href="">READ MORE | +</a>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="materials/img/banner.jpg.jpeg" class="d-block w-100 banner-img" alt="...">
+                        <div class="carousel-caption d-flex flex-column justify-content-center align-items-start h-100" id="slider-text">
+                            <h2>30%<span style="color: turquoise; border-bottom:3px solid #1dd2c8;">Discount</span>for</h2>
+                            <h2>speciall treatment patients</h2>
+                            <img src="materials/img/pulse.png" alt="pulse" loading="lazy">
+                            <a href="">READ MORE | +</a>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </header>
+        <main>
+            <div class="my_container1">
+                <form id="main-form" action="">
+                    <table>
+                        <tr>
+                            <td>
+                                <p>Patient name</p>
+                                <input type="text" style="width:100%;">
+                            </td>
+                            <td>
+                                <p>Phone number</p>
+                                <input type="text" style="width:100%;">
+                            </td>
+                            <td>
+                                <p>Email</p>
+                                <input type="text" style="width:100%;">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Select date</p>
+                                <input type="date" id="appointment" name="appointment">
+                            </td>
+                            <td>
+                                <p>Department</p>
+                                <select id="department" name="department">
+                                    <option value="">--Choose--</option>
+                                    <option value="cardiology">Cardiology</option>
+                                    <option value="neurology">Neurology</option>
+                                    <option value="orthopedics">...</option>
+                                </select>
+                            </td>
+                            <td class="make-it-row">
+                                <div class="make-it-row">
+                                    <input type="radio" id="men" name="gender" value="men" checked>
+                                    <label for="men" style="margin: 0.5em;">Men</label>
+                                    <input type="radio" id="women" name="gender" value="women">
+                                    <label for="women" style="margin: 0.5em;">Women</label>
+                                </div>
+                                <input type="submit" id="submit" value="MAKE IT | >">
+                            </td>
+                        </tr>
+                    </table>
+                </form>
+                <div id="Specialities">
+                    <h2>Specialities</h2>
+                    <img src="materials/img/pulse.png" style="width: 10%;" alt="">
+                    <h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+                    <div id="Specialities-div">
+                        <div id="two-specialities">
+                            <div id="speciality">
+                                <img src="materials/img/speciality1.png" alt="">
+                                <h3>CARDIOLOGY</h3>
+                                <hr style="width: 30%;">
+                                <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                            <div id="speciality">
+                                <img src="materials/img/speciality2.png" alt="">
+                                <h3>OPHTHALMOLOGY</h3>
+                                <hr style="width: 30%;">
+                                <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                        </div>                        
+                        <div id="two-specialities">
+                            <div id="speciality">
+                                <img src="materials/img/speciality3.png" alt="">
+                                <h3>NEUROLOGY</h3>
+                                <hr style="width: 30%;">
+                                <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                            <div id="speciality">
+                                <img src="materials/img/speciality4.png" alt="">
+                                <h3>DERMATOLOGY</h3>
+                                <hr style="width: 30%;">
+                                <p>Consectetuer adipiscing elit, sed diam nonummy</p>
+                            </div>
+                        </div>                        
+                    </div>
+                    <a href="">CLICK FOR ALL | +</a>
+                </div>
+                <div id="colorful-blocks">
+                    <div id="colorful1" class="colorful-block">
+                        <img src="materials/img/icon1.png" alt="">
+                        <h3>LAB SCHEDULE</h3>
+                        <hr style="width:20%;">
+                        <p>Call emergency appointment number for emergency service.</p>
+                        <a href="">ABOUT MORE</a>
+                    </div>
+                    <div id="colorful2" class="colorful-block">
+                        <img src="materials/img/icon2.png" alt="">
+                        <h3>CHECK UP</h3>
+                        <hr style="width:20%;">
+                        <p>Call emergency appointment number for emergency service.</p>
+                        <a href="">ABOUT MORE</a>
+                    </div>
+                    <div id="colorful3" class="colorful-block">
+                        <img src="materials/img/icon3.png" alt="">
+                        <h3>OTHER CLINICS</h3>
+                        <hr style="width:20%;">
+                        <p>Call emergency appointment number for emergency service.</p>
+                        <a href="">ABOUT MORE</a>
+                    </div>
+                </div>
+            </div>
+            <div id="latest-news">
+                <h2>LATEST NEWS</h2>
+                <img src="materials/img/pulse.png" style="width: 10%;" alt="">
+                <h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+                <div id="news-blocks">
+                    <article class="news-block">
+                        <div class="img-wrapper">
+                            <img src="materials/img/rated-article.png" id="not-a-main-img" alt="">
+                            <img src="materials/img/image8.jpg.jpeg" id="main-img" alt="">
+                        </div>
+                        <h3><strong>SPECIAL</strong> TREATMENT</h3>
+                        <hr style="width: 10%;">
+                        <h6>Posted 2nd March by George Washington</h6>
+                        <p style="margin-bottom: 1em;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="">READ MORE | +</a>
+                    </article>
+                    <article class="news-block">
+                        <div class="img-wrapper">
+                            <img src="materials/img/rated-article.png" id="not-a-main-img" alt="">
+                            <img src="materials/img/image9.jpg.jpeg" id="main-img" alt="">
+                        </div>
+                        <h3><strong>DISEASE</strong> CENTER</h3>
+                        <hr style="width: 10%;">
+                        <h6>Posted 2nd March by George Washington</h6>
+                        <p  style="margin-bottom: 1em;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <a href="">READ MORE | +</a>
+                    </article>
+                </div>
+            </div>
+            <div id="healthy-weekend">
+                <div id="overlay"></div>
+                <div id="healthy-content">
+                    <img src="materials/img/icon4.png" alt="">
+                    <h2>HEALTHY WEEKEND CHECK UP</h2>
+                    <h4>Combine your Check - up in Our Hospital with refreshing Bosphorus tour in Istanbul!</h4>
+                    <a href="">READ MORE</a>
+                </div>
+            </div>
+            <div id="gallery">
+                <div id="gallery-text">
+                    <h2>Gallery</h2>
+                    <img src="materials/img/pulse.png" style="width: 8%;" alt="">
+                    <h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+                </div>
+                <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="materials/img/image.png" style="max-width:650px;" class="d-block w-50 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="materials/img/image3.jpg.jpeg" style="max-width:650px;" class="d-block w-50 mx-auto" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="materials/img/image6.jpg.jpeg" style="max-width:650px;" class="d-block w-50 mx-auto" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="departments">
+                <h2>Departments</h2>
+                <img src="materials/img/pulse.png" style="width: 10%; margin: 1em 0;" alt="">
+                <h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+                <div id="departments-div">
+                    <div class="department">
+                        <img src="materials/img/image4.jpg.jpeg" alt="">
+                        <div id="department-text">
+                            <h3>CARDIOLOGY</h3>
+                            <p>You need a doctor urgently outside of medicenter opening hours, call emergency appointmen</p>
+                            <a href="">READ MORE</a>
+                        </div>
+                    </div>
+                    <div class="department">
+                        <img src="materials/img/image6.jpg.jpeg" alt="">
+                        <div id="department-text">
+                            <h3>DENTAL</h3>
+                            <p>You need a doctor urgently outside of medicenter opening hours, call emergency appointmen</p>
+                            <a href="">READ MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="my_container1">
+                <div id="sponsors-div">
+                    <h2>Sponsors</h2>
+                    <img src="materials/img/pulse.png" style="width: 10%;" alt="">
+                    <h5>Consectetuer adipiscing elit, sed diam nonummy</h5>
+                    <div id="sponsors">
+                        <img src="materials/img/partner-logo2.jpg.jpeg" alt="">
+                        <img src="materials/img/partner-logo3.jpg.jpeg" alt="">
+                        <img src="materials/img/partner-logo4.jpg.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </main> 
+        <footer>
+            <div id="top-footer">
+                <div class="my_container">
+                    <a href="tel:+1800555-1234">
+                        <img src="materials/img/phone.svg" alt="phone" style="width:2em;">
+                        1-800-555-1234
+                    </a>
+                    <h4 id="follow-us">Follow us on social media</h4>
+                    <div id="SN-footer">
+                        <a href=""><i class="fa-brands fa-facebook-f SN" style="color: #fff; font-size:1.5em;"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram SN" style="color: #fff; font-size:1.5em;"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in SN" style="color: #fff; font-size:1.5em;"></i></a>                 
+                    </div>
+                </div>
+                <div id="main-footer">
+                    <div class="my_container2">
+                        <div id="copyright">
+                            <img src="materials/img/logo-white.png" alt="">
+                            <p>Copyright © 2025</p>
+                        </div>
+                        <div id="newsletter">
+                            <h4>NEWSLETTER</h4>
+                            <hr style="width:30%;">
+                            <p>Sed diam nonummy nibh euismod tincidunt !</p>
+                            <form action="" id="news-form">
+                                <input type="text" placeholder="Type your e-mail">
+                                <a href="">JOIN US</a>
+                            </form>
+                        </div>
+                        <div id="sections">
+                            <div id="section">
+                                <h4>Navigation</h4>
+                                <hr style="width:30%;">
+                                <a href="">Home</a>
+                                <a href="">Medicina</a>
+                                <a href="">Departments</a>
+                                <a href="">Doctors</a>
+                                <a href="">News</a>
+                                <a href="">FAQ</a>
+                                <a href="">Contact us</a>
+                            </div>
+                            <div id="section">
+                                <h4>Our Services</h4>
+                                <hr style="width:20%;">
+                                <a href="">Cardiovascular</a>
+                                <a href="">Ophthalmology</a>
+                                <a href="">Dermatology</a>
+                                <a href="">General Surgery</a>
+                                <a href="">Consultative</a>
+                                <a href="">Diagnostic</a>
+                            </div>
+                            <div id="section">
+                                <h4>Social Media</h4>
+                                <hr style="width:20%;">
+                                <a href="">Facebook</a>
+                                <a href="">Twitter</a>
+                                <a href="">Google Plus</a>
+                                <a href="">Linkedin</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
